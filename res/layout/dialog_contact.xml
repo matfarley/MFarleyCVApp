@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/contact_dialog_call"
+        style="@style/HomeScreenRow"
+        android:background="@drawable/borders">
+        <TextView 
+            android:text="@string/contact_option_call"
+            style="@style/RowText"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/contact_dialog_email"
+        style="@style/HomeScreenRow"
+        android:background="@drawable/borders">
+        <TextView 
+            android:text="@string/contact_option_email"
+            style="@style/RowText"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/contact_dialog_git"
+        style="@style/HomeScreenRow"
+        android:background="@drawable/last_row_no_borders">
+        <TextView 
+            android:text="@string/contact_option_github"
+            style="@style/RowText"
+            />
+    </RelativeLayout>
+    
+
+</LinearLayout>
