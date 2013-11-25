@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders">
+            <ImageView
+                style="@style/ContentTitleBarIcon"
+                android:background="@drawable/ic_awards"/>
+            <TextView 
+				style="@style/ContentTitleBarText"
+                android:text="@string/awards"/>
+   </RelativeLayout>
+      <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                >
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_awards_sub_vic"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_awards_sub_vic"
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_awards_sub_vic"  
+           android:text="@string/content_awards_content_vic"
+           />
+   </RelativeLayout>
+   </LinearLayout>
+</ScrollView>  
+
+</LinearLayout>

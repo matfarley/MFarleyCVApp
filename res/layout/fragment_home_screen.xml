@@ -15,6 +15,7 @@
          <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:layout_centerInParent="true">
             <TextView 
                 android:layout_width="wrap_content"
@@ -43,6 +44,7 @@
         >
         <ImageView
             style="@style/RowIcon"
+            android:background="@drawable/ic_skills"
             />
         <TextView 
             style="@style/RowText"
@@ -60,6 +62,7 @@
         >
         <ImageView
             style="@style/RowIcon"
+            android:background="@drawable/ic_work_experience"
             />
         <TextView 
             android:text="@string/work_experience"
@@ -77,6 +80,7 @@
         >
         <ImageView
             style="@style/RowIcon"
+            android:background="@drawable/ic_education"
             />
         <TextView 
             style="@style/RowText"
@@ -94,6 +98,7 @@
         >
         <ImageView
             style="@style/RowIcon"
+            android:background="@drawable/ic_awards"       
             />
         <TextView 
             style="@style/RowText"
@@ -111,6 +116,7 @@
         >
         <ImageView
             style="@style/RowIcon"
+            android:background="@drawable/ic_contact"
             />
         <TextView 
             style="@style/RowText"

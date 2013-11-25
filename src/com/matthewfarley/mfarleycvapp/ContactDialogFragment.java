@@ -73,6 +73,5 @@ public class ContactDialogFragment extends DialogFragment {
 				.setView(v)
 				.create();
 	}
-	
 
 }

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders">
+            <ImageView
+                style="@style/ContentTitleBarIcon"
+                android:background="@drawable/ic_skills"/>
+            <TextView 
+				style="@style/ContentTitleBarText"
+                android:text="@string/skills"/>
+   </RelativeLayout>
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                >
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_skills_sub_OOP"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_OOP"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_OOP"  
+           android:text="@string/content_skills_content_OOP"
+           />
+   </RelativeLayout>
+   <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_web"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_web"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_web"  
+           android:text="@string/content_skills_content_web"
+           />
+   </RelativeLayout>
+      <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_db"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_db"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_db"  
+           android:text="@string/content_skills_content_db"
+           />
+   </RelativeLayout>
+      <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_concurrency"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_concurrency"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_concurrency"  
+           android:text="@string/content_skills_content_concurrency"
+           />
+   </RelativeLayout>
+      <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_technology"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_technology"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_technology"  
+           android:text="@string/content_skills_content_technology"
+           />
+   </RelativeLayout>
+      <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_stakeholders"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_stakeholders"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_stakeholders"  
+           android:text="@string/content_skills_content_stakeholders"
+           />
+   </RelativeLayout>
+   <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_team"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_team"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_team"  
+           android:text="@string/content_skills_content_team"
+           />
+   </RelativeLayout>
+    <RelativeLayout 
+        style="@style/ContentItemRow">
+       
+       <TextView
+           android:id="@+id/content_skills_sub_wireframing"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_skills_sub_wireframing"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_skills_sub_wireframing"  
+           android:text="@string/content_skills_content_wireframing"
+           />
+   </RelativeLayout>
+   </LinearLayout>
+</ScrollView>
+    
+</LinearLayout>
+ 

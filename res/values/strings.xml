@@ -13,5 +13,78 @@
     <string name="contact_option_call">Call Mobile</string>
     <string name="contact_option_email">Send Email</string>
     <string name="contact_option_github">Visit GitHub</string>
-
+    <string name="content_title_work_experience">Work\nExperience</string>
+    <string name="content_skills_sub_OOP">Object Oriented Programming</string>
+    <string name="content_skills_content_OOP">Knowledge of Object Oriented Programming theories,
+         practices and design patterns.  Current study has taught me the fundamentals of OOP 
+         with reference to Java and C#. I have successfully completed academic projects based on 
+         the SCJP and SCJD certifications. I write VBA macros in my work, and am currently learning 
+         Android development in spare time.</string>
+     <string name="content_skills_sub_web">Web Development</string>
+     <string name="content_skills_content_web">Used knowledge of HTML, CSS and WordPress to create a 
+         portfolio website for a video production company. The website was built locally, then 
+         migrated to the production server.  I go into battle daily with the Joomla CMS to manage web 
+         content for my current employers website.  Currently taking a lead role in wire-framing the UI 
+         for employers new website.</string>
+     <string name="content_skills_sub_db">Databases</string>
+     <string name="content_skills_content_db">Skills in database construction and administration, using 
+         Access, SQL queries and Java’s JDBC. Work and study have taught me that well planned and normalised 
+         table structures are the absolute bedrock of a successful database system.</string>
+         <string name="content_skills_sub_concurrency">Concurrency</string>
+         <string name="content_skills_content_concurrency">Working knowledge of concurrency in the form of 
+             Java threads, gained from school projects and self-study in the Android platform.  I have designed
+              working solutions to safely manage the demands of multiple threads/clients on a database. </string>
+         <string name="content_skills_sub_technology">Technology</string>
+         <string name="content_skills_content_technology">Use available technologies to solve problems encountered
+              in everyday life: Excel and C# applications to manage guitar practice, Android apps to manage workouts
+               and Python scripts to generate random notes.</string>
+         <string name="content_skills_sub_stakeholders">Stakeholders</string>
+         <string name="content_skills_content_stakeholders">Experienced at managing stakeholder expectations and keeping
+              them informed of a projects progress.  Initiated a process of sending internal customers links to indicative
+               survey results so that they could monitor results in real time.</string>
+         <string name="content_skills_sub_team">Team Player</string>
+         <string name="content_skills_content_team">Adept at working independently as well as being an active team member.  
+             Effective individual and group decision-making. Able to exchange ideas with peers with confidence.</string>
+         <string name="content_skills_sub_wireframing">Wire-Framing</string>
+         <string name="content_skills_content_wireframing">Experienced with using wireframing software such as GoMockingBird 
+             for websites and Prototyper for mocking up mobile screens.</string>
+        <string name="content_Work_experience_bullet" >•</string>     
+        <string name="content_Work_experience_sub_brava" >Brava [Auckland, New Zealand]\nWeb Services Administrator: Apr 2013- </string>
+        <string name="content_Work_experience_content_brava1" >Wrote VBA macro to automate weekly reporting, saving 2 hours of 
+            manual processing per week.</string> 
+        <string name="content_Work_experience_content_brava2" >Lead role in wire framing screens for new web application
+                 and contributing to development of project specification.</string>
+        <string name="content_Work_experience_content_brava3" >Manage and administrate memberships to organisations websites.</string>
+        <string name="content_Work_experience_sub_usertesting" >usertesting.com\nOnline User Tester: Oct 2012 – Mar 2013</string>
+        <string name="content_Work_experience_content_usertesting" >Complete a set of tasks on a website as instructed by the customer and 
+            provide feedback on the sites user interface.</string>
+        <string name="content_Work_experience_sub_mv_analyst" >Museum Victoria [Melbourne, Australia]\nSenior Market Research Analyst: 
+            Aug 2009 – Dec 2011</string>
+        <string name="content_Work_experience_content_mv_analyst1" >Develop instruments for research projects.  Developed effective 
+            methodology for interviewing IMAX customers, who had difficult to reach in the past.</string>
+        <string name="content_Work_experience_content_mv_analyst2" >Developing and administering online surveys. Played integral role in 
+            setting up system for online surveys. Total online surveys went from 0 – 84 during my tenure.</string>
+        <string name="content_Work_experience_content_mv_analyst3" >Website evaluation and analytics. Set up popup surveys on venue homepages
+             to compliment Google analytics data.</string>
+        <string name="content_Work_experience_sub_mv_assistant" >Museum Victoria [Melbourne, Australia]\nMarket Research Support Officer: 
+            Apr 2008 – Aug 2009 </string>
+        <string name="content_Work_experience_content_mv_assistant1" >Co-ordinate a team of interviewers.</string>
+        <string name="content_Work_experience_content_mv_assistant2" >Monthly analysis and reporting of postcode and attendance data.</string>
+        <string name="content_Work_experience_content_mv_assistant3" >Respond to requests for visitation and visitor profile data.</string>
+        <string name="content_education_sub_computerpower" >Diploma in Software Development</string>
+        <string name="content_education_content_computerpower" >Computer Power Plus - Due 2013</string>
+        <string name="content_education_sub_ww_cfd" >Certificate in Trading Contracts for Difference</string>
+        <string name="content_education_content_ww_cfd" >Wealth Within Institute  - 2012</string>
+        <string name="content_education_sub_ww_shares" >Diploma in Share Trading and Investment</string>
+        <string name="content_education_content_ww_shares" >Wealth Within Institute  - 2011</string>
+        <string name="content_education_sub_gdipcom" >Graduate Diploma in Commerce</string>
+        <string name="content_education_content_gdipcom" >University of Victoria - 2007</string>
+        <string name="content_education_sub_ba" >Bachelor of Arts: Politics and Management</string>
+        <string name="content_education_content_ba" >University of Otago - 2006</string>
+        <string name="content_awards_sub_vic" >Honours/Masters fees scholarship </string>
+        <string name="content_awards_content_vic" >University of Victoria - Awarded 2007</string>
+        
+        
+        
+         
 </resources>

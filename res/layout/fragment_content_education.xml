@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders">
+            <ImageView
+                style="@style/ContentTitleBarIcon"
+                android:background="@drawable/ic_education"/>
+            <TextView 
+				style="@style/ContentTitleBarText"
+                android:text="@string/education"/>
+   </RelativeLayout>
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                >
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_education_sub_computerpower"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_education_sub_computerpower"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_education_sub_computerpower"  
+           android:text="@string/content_education_content_computerpower"
+           />
+   </RelativeLayout>
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_education_sub_ww_cfd"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_education_sub_ww_cfd"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_education_sub_ww_cfd"  
+           android:text="@string/content_education_content_ww_cfd"
+           />
+   </RelativeLayout>
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_education_sub_ww_shares"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_education_sub_ww_shares"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_education_sub_ww_shares"  
+           android:text="@string/content_education_content_ww_shares"
+           />
+   </RelativeLayout>
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_education_sub_gdipcom"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_education_sub_gdipcom"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_education_sub_gdipcom"  
+           android:text="@string/content_education_content_gdipcom"
+           />
+   </RelativeLayout>
+   <RelativeLayout 
+        style="@style/ContentItemRow">   
+       <TextView
+           android:id="@+id/content_education_sub_ba"
+           style="@style/ContentItemSubHead"
+           android:text="@string/content_education_sub_ba"
+           
+           />
+       <TextView 
+           style="@style/ContentItemText"
+           android:layout_below="@id/content_education_sub_ba"  
+           android:text="@string/content_education_content_ba"
+           />
+   </RelativeLayout>
+   </LinearLayout>
+</ScrollView>
+</LinearLayout>
