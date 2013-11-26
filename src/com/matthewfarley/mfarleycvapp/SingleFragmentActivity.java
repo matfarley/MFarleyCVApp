@@ -9,21 +9,27 @@ import android.support.v4.app.FragmentManager;
  * 
  * Abstract class used to create a standard activity with methods that will 
  * create and return a fragment to be displayed in the concrete implementing
- * class
+ * class. References a layout that has an empty frame lout to host the fragments
+ * views.
  *
  */
 public abstract class SingleFragmentActivity extends FragmentActivity {
 	
+	/**
+	 * To be implemented in a child class when the concrete type of fragment 
+	 * this method is returning is known
+	 */
 	protected abstract Fragment createFragment(); 
 	
+	//getting the layout which will host the fragments view
 	protected int getLayoutResId(){
 		return R.layout.activity_fragment;
 	}
 	
 	
 	/**
-	 * takes care of finding and commiting the  fragment for the concrete child
-	 * class that will implement this class
+	 * takes care of finding and committing the hosted fragment for the concrete child
+	 * class that will extend this class.
 	 */
 	@Override
 	public void onCreate(Bundle savedInstanceState){

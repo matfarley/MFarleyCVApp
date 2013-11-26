@@ -6,6 +6,11 @@ import android.view.Window;
 
 public class ContentActivity extends SingleFragmentActivity {
 
+	/**
+	 * the implementation of this method gets the extras from the intent and
+	 * passes them into the fragments static newInstance() method which is used
+	 * to add the parameters to the args list when creating the new ContentFragment
+	 */
 	@Override
 	protected Fragment createFragment() {
 		int layout = getIntent().getIntExtra(HomeScreenFragment.EXTRA_LAYOUT, 0);
@@ -21,6 +26,7 @@ public class ContentActivity extends SingleFragmentActivity {
 	
 	@Override
 	public void finish(){
+		//used to make sure the custom animation is used when the activity is killed.
 		super.finish();
 		overridePendingTransition(R.anim.push_right_in, R.anim.push_left_out);
 	}

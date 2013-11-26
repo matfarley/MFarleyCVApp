@@ -8,6 +8,11 @@ import android.view.ViewGroup;
 
 public class ContentFragment extends Fragment {
 	
+	/**
+	 * static method is used to attach the arguments to the args bundle
+	 * and the args bundle to the to the new ContentFragment before it
+	 * is attached to its host activity.
+	 */
 	public static ContentFragment newInstance(int layout){
 		Bundle args = new Bundle();
 		args.putInt(HomeScreenFragment.EXTRA_LAYOUT, layout);
@@ -24,6 +29,7 @@ public class ContentFragment extends Fragment {
 		
 		int layout = getArguments().getInt(HomeScreenFragment.EXTRA_LAYOUT);
 
+		//0 is the default value of the extra carrying the layout value.
 		if(layout != 0){
 			View v = inflater.inflate(layout, parent, false);
 			return v;

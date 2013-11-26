@@ -35,6 +35,7 @@ public class ContactDialogFragment extends DialogFragment {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + PHONE_NUMBER));
+				//Might be useful to use a chooser some people but is useless on my phone.
 				i = Intent.createChooser(i, "Call Mobile");
 				startActivity(i);
 				

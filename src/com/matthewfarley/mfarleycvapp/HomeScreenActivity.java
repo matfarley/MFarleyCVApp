@@ -19,6 +19,7 @@ public class HomeScreenActivity extends SingleFragmentActivity {
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState){
+		//This feature must be requested before super.onCreate() is called
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 	}

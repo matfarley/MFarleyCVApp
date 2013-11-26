@@ -10,7 +10,9 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 public class HomeScreenFragment extends Fragment {
+	//String key constant, used for sending an explicit intent to start the contact dialog fragment
 	private static final String CONTACT_DIALOG = "dialog";
+	//String key used as a key for the layout extra's sent to ContentActivity/Fragment
 	public static final String EXTRA_LAYOUT = 
 			"com.matthewfarley.mfarleycvapp.layout";
 	RelativeLayout mSkillsRow;
@@ -23,11 +25,8 @@ public class HomeScreenFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
 		super.onCreateView(inflater, parent, savedInstanceState);
 		View v = inflater.inflate(R.layout.fragment_home_screen, parent, false);
-		
-		
-		//Write a reusable onClick listener
-		
-		//Using the Table row as a clickable button
+
+		//Using the RelativeLayout's as a clickable button
 		mSkillsRow = (RelativeLayout)v.findViewById(R.id.home_fragment_skillsRow);
 		mSkillsRow.setOnClickListener(new View.OnClickListener() {
 			
