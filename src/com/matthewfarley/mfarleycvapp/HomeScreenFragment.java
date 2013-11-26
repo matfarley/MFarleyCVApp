@@ -11,29 +11,13 @@ import android.widget.RelativeLayout;
 
 public class HomeScreenFragment extends Fragment {
 	private static final String CONTACT_DIALOG = "dialog";
-	public static final String EXTRA_ENUM_LAYOUTFLAG = 
-			"com.matthewfarley.mfarleycvapp.enum.layoutflag";
-	public static final String EXTRA_LAYOUT_SKILLS = 
-			"com.matthewfarley.mfarleycvapp.skills";
-	public static final String EXTRA_LAYOUT_WORK_EXPERIENCE = 
-			"com.matthewfarley.mfarleycvapp.workexperience";
-	public static final String EXTRA_LAYOUT_EDUCATION = 
-			"com.matthewfarley.mfarleycvapp.education";
-	public static final String EXTRA_LAYOUT_AWARDS = 
-			"com.matthewfarley.mfarleycvapp.awards";
+	public static final String EXTRA_LAYOUT = 
+			"com.matthewfarley.mfarleycvapp.layout";
 	RelativeLayout mSkillsRow;
 	RelativeLayout mWorkExperienceRow;
 	RelativeLayout mEducationRow;
 	RelativeLayout mAwardsRow;
 	RelativeLayout mContactRow;
-	
-	/**
-	 * @author matthewfarley
-	 * These flags are added to an intent along with a layout reference
-	 * so that a switch statement can be used to select the appropriate
-	 * layout to inflate.
-	 */
-	public enum LayoutFlag {Skills, WorkExperience, Education, Awards}
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
@@ -50,8 +34,7 @@ public class HomeScreenFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(getActivity(), ContentActivity.class);
-				i.putExtra(EXTRA_ENUM_LAYOUTFLAG, LayoutFlag.Skills);
-				i.putExtra(EXTRA_LAYOUT_SKILLS, R.layout.fragment_content_skills);
+				i.putExtra(EXTRA_LAYOUT, R.layout.fragment_content_skills);
 				startActivity(i);
 			}
 		});
@@ -62,8 +45,7 @@ public class HomeScreenFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(getActivity(), ContentActivity.class);
-				i.putExtra(EXTRA_ENUM_LAYOUTFLAG, LayoutFlag.WorkExperience);
-				i.putExtra(EXTRA_LAYOUT_WORK_EXPERIENCE, R.layout.fragment_content_work_experience);
+				i.putExtra(EXTRA_LAYOUT, R.layout.fragment_content_work_experience);
 				startActivity(i);	
 			}
 		});
@@ -74,8 +56,7 @@ public class HomeScreenFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(getActivity(), ContentActivity.class);
-				i.putExtra(EXTRA_ENUM_LAYOUTFLAG, LayoutFlag.Education);
-				i.putExtra(EXTRA_LAYOUT_EDUCATION, R.layout.fragment_content_education);
+				i.putExtra(EXTRA_LAYOUT, R.layout.fragment_content_education);
 				startActivity(i);
 			}
 		});
@@ -86,8 +67,7 @@ public class HomeScreenFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				Intent i = new Intent(getActivity(), ContentActivity.class);
-				i.putExtra(EXTRA_ENUM_LAYOUTFLAG, LayoutFlag.Awards);
-				i.putExtra(EXTRA_LAYOUT_AWARDS, R.layout.fragment_content_awards);
+				i.putExtra(EXTRA_LAYOUT, R.layout.fragment_content_awards);
 				startActivity(i);
 			}
 		});
@@ -101,8 +81,6 @@ public class HomeScreenFragment extends Fragment {
 				ContactDialogFragment dialog = new ContactDialogFragment();
 				dialog.setTargetFragment(HomeScreenFragment.this,0);
 				dialog.show(fm, CONTACT_DIALOG);
-				
-				
 			}
 		});
 		

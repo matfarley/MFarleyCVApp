@@ -8,14 +8,16 @@ public class ContentActivity extends SingleFragmentActivity {
 
 	@Override
 	protected Fragment createFragment() {
-		return new ContentFragment();
+		int layout = getIntent().getIntExtra(HomeScreenFragment.EXTRA_LAYOUT, 0);
+		return ContentFragment.newInstance(layout);
 	}
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
-	}
+
+		}
 	
 	@Override
 	public void finish(){
